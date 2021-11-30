@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 1em;
+	background-color: #F2E638;
+}
+
+#area-cabecalho{
+	background-color: #BF9004;
+	padding: 1px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#cor-logo{
+	color: black;
+}
+
+h1{
+	color: white;
+}
+h2{
+	color: black;
+	text-align: left;
+}
+p{
+	padding: 15px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#area-cabecalho a:link, #area-logo a:visited{
+	color: #fff;
+	padding: 8px 12px;
+	font-family: cursive;
+}
+#area-cabecalho a:hover{
+	color: black;
+	background: #5E320D;
+	text-decoration: underline;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area-postagem{
+	width: 1000px;
+	align-items: justify;
+	
+}
+
+.postagem{
+padding: 20px;
+margin-bottom: 20px;
+background: #D9B504;
+text-align: justify;
+font-family: cursive;
+font-size: 17px;
+float: right;	
+}
+.postagem img{
+	float: left;
+	width: 120px;
+	height: 150px;
+	padding: 7px;
+}
+#area-rodape{
+	background-color: #0D0400;
+	font-family: cursive;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	color: white;
+
+}
+.button{
+	background-color: #5E320D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+}
+#menu{
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+#menu ul li{
+	margin: 0px; 
+	padding: 0px;
+	border-bottom: 1px solid black;
+	text-align: left;
+	list-style-type: none;
+}
+#menu a:link{
+	background: #0D0400;
+	color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    }
+
+ #menu a:hover {
+    background: #E5F0FF;
+    color: #BF9004;
+ }
+.banner{
+ width: 1100px;
+ height: 500px;
+ margin: 0 auto;
+ animation: slides 10s infinite;
+ float: center;
+}
+@keyframes slides{
+ 0%, 30%{
+ background-image: url(../imagem/banner1.jpg);
+ background-repeat: no-repeat;
+ background-size: center;
+ }
+ 35%, 65%{ background-image: url(../imagem/banner2.jpg);
+ background-repeat: no-repeat;
+ background-size: center;
+}
+70%, 100%{ background-image: url(../imagem/banner1.jpg);
+ background-repeat: no-repeat;
+ background-size: center;
+}
